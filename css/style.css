@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slicknav_menu{
+    display: none;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background: #009933;
+}
+header .banner {
+    background: white;
+}
+.banner img{
+    max-width: 100%;
+    height: 200px;
+}
+header .menu{
+    text-align: center; 
+    height: 40px;
+}
+.menu nav{
+    width: 100%;
+}
+.menu ul {  
+    line-height: 40px;
+}
+.menu ul li{
+    border-right: 1px solid white;
+    width:16.58%;
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.contain{
+    float: left;
+    width: 100%;
+}
+.contain aside{  
+    width: 20%;
+    padding: .3em;
+    margin: .5em;
+    float: left;
+}
+
+aside .dinhdangds{
+    width: 100%;
+    color:#336600;  
+}
+.dinhdangds .ten{
+    font-weight: bold;
+    background: #99cc00;
+    height: 1em;
+    padding: .5em 0;
+}
+.dinhdangds ul{
+    background: gainsboro;
+    list-style-type: none;
+    padding: .2em;
+}
+.dinhdangds a{
+  border-bottom: dashed 1px gray;
+  color: #336600;
+}
+.dinhdangds ul li ::before {
+  content: "❅";
+  color: #336600;
+  display: inline-block; 
+  padding: .5em;
+
+}
+.contain article{
+    padding: .3em;
+    margin: .2em;
+    width: 74%;
+    float: left;
+}
+article .row{
+    background: gainsboro;
+    margin-top: .4em;
+    padding: .5em;
+    margin-left: 1em;
+    width: 100%;
+    float: left;
+    box-shadow: 0 0 2px;
+}
+.rsp{
+
+    float: left;
+}
+.row .sanpham{
+    width: 20%;
+    background: white;
+    box-shadow: 0 0 5px;
+    text-align: center;
+    padding: 1em;
+    float: left;
+    margin: 1.8em 2.4em;
+}
+.sanpham .hinhanh {
+    padding: auto 0;
+    height: 200px;
+}
+.hinhanh .img{max-width: 100%;}
+
+.sanpham .gia {
+    margin: .5em 0;
+}
+.gia p{
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px 2px yellow;   
+}
+
+.sanpham .btn button{
+    width: 6em; 
+    height: 2em;
+}
+.btn .chitiet{
+    color:#ff6666;
+    font-weight: bold;
+    background: #ccff99;
+    border: 1px solid #ccff99;
+}
+.btn .chitiet:hover{
+    background: #99ff99;
+}
+.btn .dathang{
+    font-weight: bold;
+    color: white;
+    background: #ff6666;
+    border: 1px solid #ff9999 ;
+}
+.dinhdangds li:hover{
+    background: #cccccc;
+}
+.menu li :hover{background: #006600;}
+
+fieldset{
+    background: darksalmon;
+}
+
+footer{
+    line-height: 50px;
+    height: 50px;
+    color:white;
+    background: #006633;
+    text-align: center;
+    clear: both;
+}
+footer p{
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: .5em;
+    font-family: impact;    
+}
+
